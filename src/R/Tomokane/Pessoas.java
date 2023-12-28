@@ -67,9 +67,9 @@ public class Pessoas {
 
     @Override
     public String toString() {
-        return "Pessoas{" +
-                "nome='" + nome + '\'' +
-                ", genero=" + genero +
+        return "Pessoas {" +
+                "nome = " + nome + '\'' +
+                ", genero = " + genero +
                 '}';
     }
 }
