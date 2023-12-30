@@ -17,7 +17,7 @@ public class PrimeiroTest {
                 .collect(Collectors.toList());
 
         for (Pessoas mulher : mulheres) {
-            Assert.assertEquals("Feminino",mulheres);
+            Assert.assertEquals("Feminino",mulher.getGenero());
 
         }
     }
